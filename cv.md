@@ -53,3 +53,16 @@ System.out.println();
 }}}
 
 ```
+
+*********
+
+### Education :
+Graduated from the Mozyr State Regional Lyceum in 2020. Also this year she entered the Faculty of Radiophysics and Computer Technology.
+Now I am studying frontend at RS school.
+
+*********
+
+### Languages:
+- __Russian__ ___(native)___
+- __Belarusian__ ___(native)___
+- __English__ ___(A2)___
