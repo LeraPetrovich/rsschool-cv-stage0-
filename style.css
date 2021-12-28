@@ -1,10 +1,7 @@
-<!DOCTYPE html>
-<html>
- <head>
-  <meta charset="utf-8">
-  <title>Стили</title>
- </head>
- <body>
-  <p style="font-size: 1.2em; font-family: monospace; color: #cd66cc">hahaha</p>
- </body>
-</html>
+body {
+    background: lightyellow;
+    font: 18px Arial, sans-serif;
+  }
+  h1 {
+    color: orange;
+  }
