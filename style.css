@@ -198,3 +198,10 @@ p{
   line-height: 30px;
   font-family: 'PT Sans Caption', sans-serif;  
 }
+.language{
+  text-align: justify;  
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  margin: 5px 40px;
+}
