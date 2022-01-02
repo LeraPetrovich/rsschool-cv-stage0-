@@ -50,3 +50,32 @@
     </ul>
 </p>
 </article>
+<article>
+  <h2 class="title3"> Code example</h2>
+  <p>Task: The input numbers are n and m. Print the multiplication table n * m</p>
+  <pre><code class="code">
+      import java.util.Scanner;
+
+class MyNumber {
+public static void main(String[] args) {
+
+Scanner in = new Scanner(System.in);
+int n = in.nextInt();
+int m= in.nextInt();
+int gr1[][] = new int [n+1][m+1];
+String spase;
+for(int i=1; i<=n;i++){
+spase="";
+for(int j=1;j<=m;j++){
+// int gr1[i][j]=in.nextInt;
+gr1[i][j]=j*i;
+
+System.out.print(spase+gr1[i][j]);
+spase=" ";
+
+}
+System.out.println();
+}}}
+  </code></pre>
+
+</article>
