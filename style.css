@@ -191,3 +191,10 @@ p{
   display: block;
   
 }
+.education{
+  text-align: justify;
+  margin: 10px 50px;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'PT Sans Caption', sans-serif;  
+}
