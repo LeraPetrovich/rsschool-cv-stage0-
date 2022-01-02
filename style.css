@@ -7,3 +7,70 @@
    margin:auto;
 
   }
+  .h2{
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.title{
+    font-family: monospace;
+    border-radius: 10px;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    background-color: rgb(214, 163, 68);
+    color: floralwhite;
+    margin: 40px 1150px 5px 40px;
+}
+.title2{
+  font-family: monospace;
+  border-radius: 10px;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(214, 163, 68);
+  color: floralwhite;
+  margin: 40px 1100px 5px 40px;
+}
+.title3{
+  font-family: monospace;
+  border-radius: 10px;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(214, 163, 68);
+  color: floralwhite;
+  margin: 40px 1250px 5px 40px;
+
+}
+.title4{
+  font-family: monospace;
+  border-radius: 10px;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(214, 163, 68);
+  color: floralwhite;
+  margin: 40px 1280px 5px 40px;  
+}
+.title5{
+  font-family: monospace;
+  border-radius: 10px;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(214, 163, 68);
+  color: floralwhite;
+  margin: 40px 1290px 5px 40px;      
+}
+.title6{
+  font-family: monospace;
+  border-radius: 10px;
+  font-size: 25px;
+  display: block;
+  padding: 10px;
+  background-color: rgb(214, 163, 68);
+  color: floralwhite;
+  margin: 40px 1290px 5px 40px;  
+}
