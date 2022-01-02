@@ -205,3 +205,15 @@ p{
   font-family: 'PT Sans Caption', sans-serif;
   margin: 5px 40px;
 }
+.contact li{
+  color: rgb(255, 255, 255);
+  list-style: none;
+  margin: 20px 1290px 5px 40px; 
+  background-color: rgb(255, 255, 255);
+  text-align: justify;  
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  
+  
+}
