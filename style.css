@@ -163,3 +163,16 @@ transition: 0.5s;
 visibility: visible;
 left: 0;
 }
+.center{
+  font-size: 40px;
+  color:rgb(214, 163, 68);
+  font-family: monospace;
+}
+p{
+  text-align: justify;
+  margin: 10px 50px;
+  font-size: 22px;
+  line-height: 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  
+}
