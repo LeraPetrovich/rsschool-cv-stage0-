@@ -1,7 +1,9 @@
-body {
-    background: lightyellow;
-    font: 18px Arial, sans-serif;
-  }
-  h1 {
-    color: orange;
+.photo{
+  border-radius: 150px;
+  border: 6px solid rgb(214, 163, 68);
+  width: 250px;
+  height: 250px;
+  display:block;
+   margin:auto;
+
   }
