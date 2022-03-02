@@ -10,6 +10,12 @@ html{
    margin:auto;
 
   }
+  h3{
+    font-family: monospace;
+    color: #929292;
+    font-size: 20px;
+    text-align: center;
+  }
   .h2{
     text-transform: uppercase;
     letter-spacing: 10px;
@@ -157,10 +163,9 @@ p{
 }
 
 .github{
-  padding: 32px 0px 0px 0px;
-  padding-left: 20px;
-width: 300px;
-height: 100px;
+margin-right: 20px ;
+width: 200px;
+height: 80px;
 background-size: contain;
 background-repeat: no-repeat;
 background-image: url("./github_original_wordmark_logo_icon_146506.svg");
@@ -173,31 +178,45 @@ background-color: white;}
 }
 
 .github:hover {
-  filter: brightness(.85);
+  border: 1px solid white;
 }
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
+
 .RS{
-  width: 300px;
-  height: 20px;
+  width: 200px;
+  height: 50px;
   background-size: contain;
   background-repeat: no-repeat;
   background-image: url("./rss.svg");
   transition: .3s;
+  margin-right: 100px;
   
   background-color:black;}
+  .RS:hover {
+    border: 1px solid white;
+  }
  
     .email{
       width: 300px;
-      height: 50px;
+      height: 60px;
       background-size: contain;
       background-repeat: no-repeat;
       background-image: url("./email-outlined-envelope-back-symbol_icon-icons.com_57846.svg");
       transition: .3s;
       background-color: white;}
+      .emali:hover {
+        border: 3px solid white;
+      }
+      .inst{
+        width: 300px;
+        height: 50px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-image: url("./instagram_f_icon-icons.com_65485.svg");
+        transition: .3s;
+        background-color: white;}
+        .inst:hover {
+          border: 1px solid white;
+        }
       .main{
         margin-left: 25%;
         margin-right: 25%;
@@ -296,13 +315,13 @@ background-color: white;}
       display: block;
       padding: 12px 24px;
       color: gray;
-      font-family: 'Roboto', sans-serif;
+      font-family: monospace;
       font-size: 20px;
       font-weight: 600;
       text-decoration: none;
     }
     .menu__item:hover {
-      background-color: rgb(204, 201, 201);
+      color: #d3cccc;
     }
     #menu__toggle:checked ~ .menu__btn > span {
       transform: rotate(45deg);
@@ -330,4 +349,64 @@ background-color: white;}
 .menu__item {
   transition-duration: .25s;
 }
-      
+.language-container{
+  border-radius: 10px;
+  
+}
+.language{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-around;
+}
+.lilang{
+  color: gray;
+    font-family:'PT Sans Caption', sans-serif ;
+    background-color: #e0e0e0;
+    font-size: 24px;
+    margin: 20px 41px;
+    display: inline;
+    
+    border: 3px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 10px;
+}
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card{
+  text-transform: uppercase;
+ position: relative;
+margin: 10px ;
+padding: 10px;
+font-family: 'Roboto', sans-serif;
+display: block;
+text-decoration: none;
+color: #929292;
+border: 3px solid #929292;
+border-radius: 1%;
+}
+
+.cards a:hover{
+  transition: 0.5s;
+  color: #3e5a4a;
+  border: 3px solid #3e5a4a;
+}
+/*----------------------*/
+.projects-container{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.picture-link{
+  display: block;
+}
+.img:hover{
+  border: 5px solid white;
+}
+.cards-content{
+  border: 1px solid gray;
+  margin: 15px 0px;
+}
